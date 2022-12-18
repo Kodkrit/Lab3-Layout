@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-color: blue;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo {
+    background-color: crimson;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation {
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+.header {
+    background-color: chartreuse;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 5px;
+    height: 100px;
+}
+
+.sidebar {
+    background-color: whitesmoke;
+    text-align: center;
+    height: 250px;
+
+    display: block;
+    flex: 1;
+}
+
+.body {
+    background-color: violet;
+    text-align: center;
+
+    display: block;
+    flex: 2;
+}
+
+.footer {
+    background-color: yellowgreen;
+    text-align: center;
+}

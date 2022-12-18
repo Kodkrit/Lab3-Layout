@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px 10px 20px;
+}
+
+.logo {
+    background-color: rgb(167, 93, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-right: 575px;
+    height: 50px;
+
+}
+
+.navigation {
+    background-color: rgb(167, 93, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.box1 {
+    background-color: rgb(9, 254, 9);
+    display: block;
+    flex: 1;
+    text-align: center;
+
+    height: 20px;
+    padding: 40px;
+    margin-right: 5px;
+}
+
+.box2 {
+    background-color: rgb(242, 254, 9);
+    display: block;
+    flex: 1;
+    text-align: center;
+
+
+    padding: 40px;
+    margin-right: 5px;
+}
+
+.box3 {
+    background-color: rgb(255, 0, 0);
+    display: block;
+    flex: 1;
+    text-align: center;
+
+    padding: 40px;
+}
+
+.footer {
+    background-color: azure;
+    text-align: center;
+}
